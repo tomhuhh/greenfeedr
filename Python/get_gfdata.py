@@ -78,5 +78,5 @@ if __name__ == "__main__":
     end_date   = datetime.today().strftime("%m/%d/%Y")
     save_dir   = "/tmp"
 
-    unit = [304, 305]
+    unit = [453, 454, 560]
     get_gfdata_urllib(user, passw, exp, unit, start_date, end_date, save_dir)
